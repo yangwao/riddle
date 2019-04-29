@@ -1,0 +1,28 @@
+{
+  "name": "riddle",
+  "version": "1.0.0",
+  "description": "poa telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon riddle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangwao/riddle.git"
+  },
+  "author": "yangwao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangwao/riddle/issues"
+  },
+  "homepage": "https://github.com/yangwao/riddle#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ethers": "^4.0.27",
+    "nodemon": "^1.18.10",
+    "r2": "^2.0.1",
+    "telegraf": "^3.27.1",
+    "telegraf-command-parts": "^1.0.3",
+    "web3": "^1.0.0-beta.52"
+  }
+}
